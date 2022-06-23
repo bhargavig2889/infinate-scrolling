@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+html{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background:whitesmoke;
+}
+h1{
+    text-align: center;
+    letter-spacing: 5px;
+    font: size 2.75em;
+}
+.loader-container
+{
+    position: fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background: rgba(255,255,255,0.8);
+}
+ .loader-container img{
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50% ,-50px);
+}
+.img-container 
+{
+    margin:10px 30%;
+    
+}
+.img-container img{
+    width:100%;
+}
+@media screen and(max-width:600px) {
+    h1{
+        font-size:1.8rem;
+    }
+    .img-container{
+        margin:10px;
+    }
+    
+}
